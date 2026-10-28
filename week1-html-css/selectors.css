@@ -1,0 +1,19 @@
+p 
+{
+    color: gray;
+}
+.note
+{
+    color: green;
+}
+#title
+{
+    color: navy;
+}
+
+nav a
+{
+    text-decoration: none;
+}
+
+.card p { font-weight: bold; }

@@ -1,0 +1,92 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    max-width: 900px;           
+    margin: 16px auto;              
+    padding: 16px 16px;    
+    border: 1px solid #ccc;        
+}
+
+h1 {
+    font-size: 2.5rem;     
+    
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #e3f2fd; 
+}
+
+header {
+    text-align: center;
+    background-color: #1f3a5f;   
+    color: #fff;               
+    padding: 16px;               
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+header a {                       
+    color: #fff;
+    text-decoration: none;
+}
+
+article {
+    padding: 16px;
+    border: 1px solid #ccc;
+    margin: 16px 0;
+    background-color: #fff;     
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;   
+}
+
+th, td {                      
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {                             
+    background-color: #eee;
+}
+
+label {
+    display: block;
+    margin-top: 12px;           
+}
+
+fieldset {                      
+    margin: 16px 0;
+}
+
+fieldset label {                 
+    display: inline;
+}
+
+a:focus-visible,
+input:focus-visible,
+select:focus-visible, 
+button:focus-visible {          
+    outline: 3px solid #1a73e8;
+    outline-offset: 2px;
+}
+
+main > section 
+{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}

@@ -199,3 +199,9 @@ Use real interactive elements (`a`, `button`, `input`), since they're focusable 
 ## Your project in one line
 
 - "My BookNest page uses nested `section`s, `article`s for self-contained items, `aside` for related extras, and a form with grouped controls, all of which pass the W3C validator."
+
+
+# Week 1, Day 2: CSS
+
+Box model: content, padding, border, margin. box-sizing: border-box makes width include padding and border.
+Put the box-sizing rule first, so later rules build on it.
