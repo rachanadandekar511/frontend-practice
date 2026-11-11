@@ -117,3 +117,14 @@ footer nav
         margin-top: 0;
 }
 
+.book-list
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.book-list article
+{
+    margin: 0;
+}
