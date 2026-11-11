@@ -1,0 +1,49 @@
+*, *::before, *::after 
+{
+    box-sizing: border-box;
+}
+
+.row
+{
+    display: flex;
+    background: #e3f2fd;
+    padding: 8px;
+    gap: 16px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.box
+{
+    background: #1f3a5f;
+    color: #fff;
+    padding: 16px;
+}
+
+.box:nth-child(3)
+{
+    flex: 1;
+}
+
+.box:nth-child(2)
+{
+    flex: 1;
+}
+
+.tall
+{
+    height: 100px;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.grid div
+{
+    background: #1f3a5f;
+    color: #fff;
+    padding: 16px;
+}

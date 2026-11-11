@@ -31,6 +31,12 @@ header {
     padding: 16px;               
 }
 
+header nav {
+        display: flex;
+        justify-content: center;
+        gap: 8px;        
+}
+
 nav a {
     display: inline-block;
     padding: 8px 16px;
@@ -90,3 +96,24 @@ main > section
     padding-bottom: 16px;
     margin-bottom: 16px;
 }
+
+footer nav
+{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.consent
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.consent label
+{
+        margin-top: 0;
+}
+
