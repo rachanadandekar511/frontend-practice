@@ -9,13 +9,30 @@ body {
     line-height: 1.6;
     max-width: 900px;           
     margin: 16px auto;              
-    padding: 16px 16px;    
+    padding: 8px;    
     border: 1px solid #ccc;        
+}
+@media (min-width:700px) {
+    body{
+        padding: 16px;
+    }
+}
+
+input, select, textarea
+{
+    max-width: 100%;
 }
 
 h1 {
-    font-size: 2.5rem;     
-    
+    font-size: 2rem;      
+}
+
+@media(min-width: 700px)
+{
+    h1
+    {
+        font-size: 2.5rem;
+    }
 }
 
 h2 {
@@ -33,6 +50,7 @@ header {
 
 header nav {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         gap: 8px;        
 }
@@ -85,7 +103,8 @@ fieldset label {
 a:focus-visible,
 input:focus-visible,
 select:focus-visible, 
-button:focus-visible {          
+button:focus-visible,
+textarea:focus-visible {          
     outline: 3px solid #1a73e8;
     outline-offset: 2px;
 }
@@ -100,6 +119,7 @@ main > section
 footer nav
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 8px;
 }
@@ -120,7 +140,7 @@ footer nav
 .book-list
 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 16px;
 }
 
@@ -128,3 +148,21 @@ footer nav
 {
     margin: 0;
 }
+
+@media (min-width:700px)
+{
+    .book-list
+    {
+        grid-template-columns: repeat(2, minmax(0,1fr));
+    }
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.table-wrap {
+       overflow-x: auto;
+   }
